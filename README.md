@@ -19,7 +19,6 @@ A modular Verilog HDL implementation of a centralized, fixed-priority bus arbitr
   - [Using Icarus Verilog & GTKWave](#using-icarus-verilog--gtkwave)
   - [Using ModelSim / QuestaSim](#using-modelsim--questasim)
   - [Using Vivado Simulator (xsim)](#using-vivado-simulator-xsim)
-- [Synthesis Considerations & Latch Prevention](#synthesis-considerations--latch-prevention)
 
 ---
 
