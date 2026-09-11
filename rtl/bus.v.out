@@ -1,0 +1,84 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_00000230f3126520 .scope module, "rs485_bus" "rs485_bus" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "tx_en";
+    .port_info 1 /INPUT 4 "tx_data";
+    .port_info 2 /OUTPUT 1 "bus";
+    .port_info 3 /OUTPUT 1 "collision";
+v00000230f31680d0_0 .net *"_ivl_1", 0 0, L_00000230f31c2be0;  1 drivers
+L_00000230f31c40b0 .functor BUFT 1, C4<0000000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v00000230f3167e50_0 .net *"_ivl_11", 30 0, L_00000230f31c40b0;  1 drivers
+v00000230f31687b0_0 .net *"_ivl_12", 31 0, L_00000230f31c2a00;  1 drivers
+v00000230f31688f0_0 .net *"_ivl_15", 0 0, L_00000230f31c3720;  1 drivers
+v00000230f3168c10_0 .net *"_ivl_16", 31 0, L_00000230f31c3b80;  1 drivers
+L_00000230f31c40f8 .functor BUFT 1, C4<0000000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v00000230f3168670_0 .net *"_ivl_19", 30 0, L_00000230f31c40f8;  1 drivers
+v00000230f3167ef0_0 .net *"_ivl_2", 31 0, L_00000230f31c3cc0;  1 drivers
+v00000230f3168030_0 .net *"_ivl_20", 31 0, L_00000230f31c23c0;  1 drivers
+v00000230f3168170_0 .net *"_ivl_23", 0 0, L_00000230f31c2280;  1 drivers
+v00000230f3168cb0_0 .net *"_ivl_24", 31 0, L_00000230f31c2820;  1 drivers
+L_00000230f31c4140 .functor BUFT 1, C4<0000000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v00000230f3168990_0 .net *"_ivl_27", 30 0, L_00000230f31c4140;  1 drivers
+v00000230f3168210_0 .net *"_ivl_28", 31 0, L_00000230f31c3540;  1 drivers
+L_00000230f31c4188 .functor BUFT 1, C4<00000000000000000000000000000001>, C4<0>, C4<0>, C4<0>;
+v00000230f31682b0_0 .net/2u *"_ivl_30", 31 0, L_00000230f31c4188;  1 drivers
+v00000230f3168530_0 .net *"_ivl_35", 0 0, L_00000230f31c2aa0;  1 drivers
+v00000230f3168350_0 .net *"_ivl_37", 0 0, L_00000230f31c2960;  1 drivers
+v00000230f3168ad0_0 .net *"_ivl_39", 0 0, L_00000230f31c37c0;  1 drivers
+v00000230f31683f0_0 .net *"_ivl_41", 0 0, L_00000230f31c2780;  1 drivers
+v00000230f3168490_0 .net *"_ivl_43", 0 0, L_00000230f31c3900;  1 drivers
+v00000230f31685d0_0 .net *"_ivl_45", 0 0, L_00000230f31c2e60;  1 drivers
+v00000230f3168b70_0 .net *"_ivl_47", 0 0, L_00000230f31c2dc0;  1 drivers
+v00000230f31c35e0_0 .net *"_ivl_49", 0 0, L_00000230f31c2140;  1 drivers
+L_00000230f31c4068 .functor BUFT 1, C4<0000000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v00000230f31c26e0_0 .net *"_ivl_5", 30 0, L_00000230f31c4068;  1 drivers
+L_00000230f31c41d0 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v00000230f31c3220_0 .net/2u *"_ivl_50", 0 0, L_00000230f31c41d0;  1 drivers
+v00000230f31c21e0_0 .net *"_ivl_52", 0 0, L_00000230f31c39a0;  1 drivers
+v00000230f31c25a0_0 .net *"_ivl_54", 0 0, L_00000230f31c2320;  1 drivers
+v00000230f31c3c20_0 .net *"_ivl_56", 0 0, L_00000230f31c2f00;  1 drivers
+v00000230f31c3860_0 .net *"_ivl_7", 0 0, L_00000230f31c32c0;  1 drivers
+v00000230f31c30e0_0 .net *"_ivl_8", 31 0, L_00000230f31c2460;  1 drivers
+v00000230f31c3680_0 .net "bus", 0 0, L_00000230f31c2500;  1 drivers
+v00000230f31c34a0_0 .net "collision", 0 0, L_00000230f31c20a0;  1 drivers
+o00000230f3177538 .functor BUFZ 4, C4<zzzz>; HiZ drive
+v00000230f31c3f40_0 .net "tx_data", 3 0, o00000230f3177538;  0 drivers
+o00000230f3177568 .functor BUFZ 4, C4<zzzz>; HiZ drive
+v00000230f31c3180_0 .net "tx_en", 3 0, o00000230f3177568;  0 drivers
+L_00000230f31c2be0 .part o00000230f3177568, 0, 1;
+L_00000230f31c3cc0 .concat [ 1 31 0 0], L_00000230f31c2be0, L_00000230f31c4068;
+L_00000230f31c32c0 .part o00000230f3177568, 1, 1;
+L_00000230f31c2460 .concat [ 1 31 0 0], L_00000230f31c32c0, L_00000230f31c40b0;
+L_00000230f31c2a00 .arith/sum 32, L_00000230f31c3cc0, L_00000230f31c2460;
+L_00000230f31c3720 .part o00000230f3177568, 2, 1;
+L_00000230f31c3b80 .concat [ 1 31 0 0], L_00000230f31c3720, L_00000230f31c40f8;
+L_00000230f31c23c0 .arith/sum 32, L_00000230f31c2a00, L_00000230f31c3b80;
+L_00000230f31c2280 .part o00000230f3177568, 3, 1;
+L_00000230f31c2820 .concat [ 1 31 0 0], L_00000230f31c2280, L_00000230f31c4140;
+L_00000230f31c3540 .arith/sum 32, L_00000230f31c23c0, L_00000230f31c2820;
+L_00000230f31c20a0 .cmp/gt 32, L_00000230f31c3540, L_00000230f31c4188;
+L_00000230f31c2aa0 .part o00000230f3177568, 0, 1;
+L_00000230f31c2960 .part o00000230f3177538, 0, 1;
+L_00000230f31c37c0 .part o00000230f3177568, 1, 1;
+L_00000230f31c2780 .part o00000230f3177538, 1, 1;
+L_00000230f31c3900 .part o00000230f3177568, 2, 1;
+L_00000230f31c2e60 .part o00000230f3177538, 2, 1;
+L_00000230f31c2dc0 .part o00000230f3177568, 3, 1;
+L_00000230f31c2140 .part o00000230f3177538, 3, 1;
+L_00000230f31c39a0 .functor MUXZ 1, L_00000230f31c41d0, L_00000230f31c2140, L_00000230f31c2dc0, C4<>;
+L_00000230f31c2320 .functor MUXZ 1, L_00000230f31c39a0, L_00000230f31c2e60, L_00000230f31c3900, C4<>;
+L_00000230f31c2f00 .functor MUXZ 1, L_00000230f31c2320, L_00000230f31c2780, L_00000230f31c37c0, C4<>;
+L_00000230f31c2500 .functor MUXZ 1, L_00000230f31c2f00, L_00000230f31c2960, L_00000230f31c2aa0, C4<>;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "bus.v";
