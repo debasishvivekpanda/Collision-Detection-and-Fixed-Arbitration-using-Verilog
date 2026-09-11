@@ -1,0 +1,55 @@
+# ==============================================================================
+# Gitignore for Verilog / SystemVerilog Simulation and Synthesis Tools
+# ==============================================================================
+
+# Waveform / Dump Files
+*.vcd
+*.vpd
+*.fsdb
+*.wlf
+*.evcd
+
+# Icarus Verilog
+*.vvp
+*.out
+
+# ModelSim / QuestaSim
+work/
+transcript
+*.wlf
+vsim.wlf
+wlft*
+modelsim.ini
+
+# AMD / Xilinx Vivado (xsim, synthesis, implementation)
+xsim.dir/
+.Xil/
+*.log
+*.jou
+*.pb
+*.str
+*.wdb
+xvlog.pb
+xelab.pb
+
+# Synopsys (VCS, Design Compiler)
+simv
+simv.daidir/
+csrc/
+ucli.key
+vc_hdrs.h
+DVEfiles/
+verilog.dump
+
+# Cadence (Incisive, Xcelium)
+INCA_libs/
+xcelium.d/
+waves.shm/
+
+# Editor / OS Artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
