@@ -140,8 +140,8 @@ fixed_priority_bus/
 │   └── top.v                  # Top-level DUT integration
 ├── tb/
 │   └── tb_top.v               # Multi-scenario verification testbench
-├── sim/                       # Simulation runs & generated waveforms
-├── wave.vcd                   # Artifact exclusion filter
+├── sim/                       # Simulation runs
+├── wave.vcd                   # generated waveforms
 └── README.md                  # Project documentation
 ```
 
