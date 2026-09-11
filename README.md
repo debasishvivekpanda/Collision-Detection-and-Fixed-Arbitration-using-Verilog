@@ -76,7 +76,7 @@ In multi-drop shared-medium topologies such as RS-485, bus contention and packet
   - `request[1] == 1` $\rightarrow$ `grant = 4'b0010`
   - `request[2] == 1` $\rightarrow$ `grant = 4'b0100`
   - `request[3] == 1` $\rightarrow$ `grant = 4'b1000` (Lowest priority)
-  - `request == 2'b00` $\rightarrow$ `grant = 4'b0000`
+  - `request == 4'b0000` $\rightarrow$ `grant = 4'b0000`
 
 ### 2. Node Controller (`node.v`)
 - Implements a Moore-style 4-state Finite State Machine (FSM):
